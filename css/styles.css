@@ -85,6 +85,9 @@ button{
 text-align: center;
 padding: 20px;
 }
+.footer h5{
+    padding: 10px;
+}
 #portfolio img {
     padding: 10px 10px;
     padding-bottom: 2%;
