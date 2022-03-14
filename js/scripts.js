@@ -24,12 +24,29 @@ $(".col-md-3").hover(function () {
   });
   
 
-  $("button").click(function (event) {
-    var client = document.getElementById('name').value;
-    alert(' Dear ' + ' esteemed ' + client + ' we have received your message successfuly. ' + ' Feel free to reach out to us anytime');
+  function validate(event) {
+    var{name,email,message} = document.contactForm;
+    if( name.value == "") {
+       alert( "enter name!" );
+       name.focus() ;
+       return false;
+    }
+    else if( email.value ==""){
+       alert( "Enter email!" );
+       email.focus() ;
+       return false;
+    }
+    else if( message.value =="") {
+       alert( "write a message!" );
+       message.focus() ;
+       return false;
+    }else{
+        alert(name.value +" "+ "we have received your message. Thank you fro reaching out to us.")
+        return true;
+    }
     event.preventDefault();
-  });
-
+    
+}
 
 
 
