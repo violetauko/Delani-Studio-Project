@@ -41,7 +41,7 @@ $(".col-md-3").hover(function () {
        message.focus() ;
        return false;
     }else{
-        alert(name.value +" "+ "we have received your message. Thank you fro reaching out to us.")
+        alert(name.value +" "+ "we have received your message. Thank you for reaching out to us.")
         return true;
     }
     event.preventDefault();
