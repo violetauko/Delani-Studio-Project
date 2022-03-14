@@ -1,0 +1,121 @@
+*{
+    font-family: 'Chewy', cursive;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.introduction{
+    background-image: url("../Delani/assets/backgrounds/h_img.jpg");
+     background-size: cover; 
+    background-position: center;
+    padding: 50px 50px;
+    scroll-behavior: smooth;
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+}
+.introduction h1{
+    padding: 2px;
+    margin: 5px;
+  }
+.introduction p{
+    padding: 2px;
+  }
+.Dlogo{
+    margin-top: 12px;
+    margin-bottom: 24px;
+    width: 70px;
+    height: 70px;;
+}
+#mouseClick{
+    padding-top : 22px;
+    margin-top: 10%;
+    padding-bottom: 20px;
+}
+.aboutUs{
+    text-align: center;
+    padding: 50px 50px;
+    
+}
+#services{
+    text-align: center;
+    background-image: url("../Delani/assets/backgrounds/s_image.jpg");
+    padding: 50px 50px;
+    color: white;
+    background-size: cover;
+    /* padding-top: 10%;
+    padding-bottom: 5%; */
+}
+#whatWeDo{
+    text-align: center;
+}
+#portfolio{
+    text-align: center;
+    
+}
+#contactUs{
+    text-align: center;
+    background-image: url("../Delani/assets/backgrounds/c_image.jpg");
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+}
+input[type=text],input[type=email],#comment{
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    margin-left: 120px;
+
+}
+button{
+    display: flex;
+}
+#design {
+    display: none;
+}
+#development {
+    display: none;
+}
+#product-mgt {
+    display: none;
+}
+.footer{
+text-align: center;
+padding: 20px;
+}
+#portfolio img {
+    padding: 10px 10px;
+    padding-bottom: 2%;
+
+}
+.col-md-3 {
+    overflow: hidden;
+
+}
+.col-md-3:hover img {
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+.card-1 {
+  position: relative;
+  width: 20%;
+  height: 20%;
+  background-color: rgba(49, 47, 47, 0.1);
+  z-index: 2;
+  cursor: pointer;
+    
+}
+.ptag {
+ position: absolute;
+  top: 10%;
+  left: 70%;
+  font-size: 20px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+
+}
+
+
