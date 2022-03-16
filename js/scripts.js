@@ -19,9 +19,9 @@ $(document).ready(function(){
    });
 });
 
-$(".col-md-3").hover(function () {
-    $(this).children(".card-1").fadeToggle(1000, "linear");
-  });
+// $(".col-md-3").hover(function () {
+//     $(this).children(".card-1").slideToggle();
+//   });
   
 
   function validate(event) {
