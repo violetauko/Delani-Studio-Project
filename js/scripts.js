@@ -17,12 +17,51 @@ $(document).ready(function(){
   $("#product-mgt").click(function() {
     $(".product-mgt, #product-mgt").toggle("slow");
    });
+
+   $("#image1").hover(function() {
+    $("#image1 .middle").css({"opacity": "0.8","background-color": "#474343"});
+      },function() {
+        $(".middle").css({"opacity": "0"});
+      }
+);
+  $("#image2").hover(function() {
+    $("#image2 .middle").css({"opacity": "0.8","background-color": "#474343"});
+      },function() {
+        $(".middle").css({"opacity": "0"});
+      });
+  $("#image3").hover(function() {
+    $("#image3 .middle").css({"opacity": "0.8","background-color": "#474343"});
+      },function() {
+        $(".middle").css({"opacity": "0"});
+      });
+  $("#image4").hover(function() {
+    $("#image4 .middle").css({"opacity": "0.8","background-color": "#474343"});
+      },function() {
+        $(".middle").css({"opacity": "0"});
+      });
+  $("#image5").hover(function() {
+    $("#image5 .middle").css({"opacity": "0.8","background-color": "#474343"});
+      },function() {
+        $(".middle").css({"opacity": "0"});
+      });
+  $("#image6").hover(function() {
+    $("#image6 .middle").css({"opacity": "0.8","background-color": "#474343"});
+      },function() {
+        $(".middle").css({"opacity": "0"});
+      });
+  $("#image7").hover(function() {
+    $("#image7 .middle").css({"opacity": "0.8","background-color": "#474343"});
+      },function() {
+        $(".middle").css({"opacity": "0"});
+      });
+  $("#image8").hover(function() {
+    $("#image8 .middle").css({"opacity": "0.8","background-color": "#474343"});
+      },function() {
+        $(".middle").css({"opacity": "0"});
+      });
 });
 
-// $(".col-md-3").hover(function () {
-//     $(this).children(".card-1").slideToggle();
-//   });
-  
+
 
   function validate(event) {
     var{name,email,message} = document.contactForm;
